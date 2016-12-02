@@ -1,0 +1,268 @@
+/* FONTY */
+
+@font-face {
+	font-family: 'Raleway';
+	src: url('../fonts/Raleway-Medium.eot');
+	src: local('Raleway Medium'), local('Raleway-Medium'),
+		url('../fonts/Raleway-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Raleway-Medium.woff2') format('woff2'),
+		url('../fonts/Raleway-Medium.woff') format('woff'),
+		url('../fonts/Raleway-Medium.ttf') format('truetype'),
+		url('../fonts/Raleway-Medium.svg#Raleway-Medium') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Raleway';
+	src: url('../fonts/Raleway-Thin.eot');
+	src: local('Raleway Thin'), local('Raleway-Thin'),
+		url('../fonts/Raleway-Thin.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Raleway-Thin.woff2') format('woff2'),
+		url('../fonts/Raleway-Thin.woff') format('woff'),
+		url('../fonts/Raleway-Thin.ttf') format('truetype'),
+		url('../fonts/Raleway-Thin.svg#Raleway-Thin') format('svg');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Raleway';
+	src: url('../fonts/Raleway-Light.eot');
+	src: local('Raleway Light'), local('Raleway-Light'),
+		url('../fonts/Raleway-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Raleway-Light.woff2') format('woff2'),
+		url('../fonts/Raleway-Light.woff') format('woff'),
+		url('../fonts/Raleway-Light.ttf') format('truetype'),
+		url('../fonts/Raleway-Light.svg#Raleway-Light') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Raleway';
+	src: url('../fonts/Raleway-ExtraLight.eot');
+	src: local('Raleway ExtraLight'), local('Raleway-ExtraLight'),
+		url('../fonts/Raleway-ExtraLight.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Raleway-ExtraLight.woff2') format('woff2'),
+		url('../fonts/Raleway-ExtraLight.woff') format('woff'),
+		url('../fonts/Raleway-ExtraLight.ttf') format('truetype'),
+		url('../fonts/Raleway-ExtraLight.svg#Raleway-ExtraLight') format('svg');
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Raleway';
+	src: url('../fonts/Raleway-Regular.eot');
+	src: local('Raleway'), local('Raleway-Regular'),
+		url('../fonts/Raleway-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Raleway-Regular.woff2') format('woff2'),
+		url('../fonts/Raleway-Regular.woff') format('woff'),
+		url('../fonts/Raleway-Regular.ttf') format('truetype'),
+		url('../fonts/Raleway-Regular.svg#Raleway-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Raleway';
+	src: url('../fonts/Raleway-Black.eot');
+	src: local('Raleway Black'), local('Raleway-Black'),
+		url('../fonts/Raleway-Black.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Raleway-Black.woff2') format('woff2'),
+		url('../fonts/Raleway-Black.woff') format('woff'),
+		url('../fonts/Raleway-Black.ttf') format('truetype'),
+		url('../fonts/Raleway-Black.svg#Raleway-Black') format('svg');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Raleway';
+	src: url('../fonts/Raleway-ExtraBold.eot');
+	src: local('Raleway ExtraBold'), local('Raleway-ExtraBold'),
+		url('../fonts/Raleway-ExtraBold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Raleway-ExtraBold.woff2') format('woff2'),
+		url('../fonts/Raleway-ExtraBold.woff') format('woff'),
+		url('../fonts/Raleway-ExtraBold.ttf') format('truetype'),
+		url('../fonts/Raleway-ExtraBold.svg#Raleway-ExtraBold') format('svg');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Raleway';
+	src: url('../fonts/Raleway-Bold.eot');
+	src: local('Raleway Bold'), local('Raleway-Bold'),
+		url('../fonts/Raleway-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Raleway-Bold.woff2') format('woff2'),
+		url('../fonts/Raleway-Bold.woff') format('woff'),
+		url('../fonts/Raleway-Bold.ttf') format('truetype'),
+		url('../fonts/Raleway-Bold.svg#Raleway-Bold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Raleway';
+	src: url('../fonts/Raleway-SemiBold.eot');
+	src: local('Raleway SemiBold'), local('Raleway-SemiBold'),
+		url('../fonts/Raleway-SemiBold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Raleway-SemiBold.woff2') format('woff2'),
+		url('../fonts/Raleway-SemiBold.woff') format('woff'),
+		url('../fonts/Raleway-SemiBold.ttf') format('truetype'),
+		url('../fonts/Raleway-SemiBold.svg#Raleway-SemiBold') format('svg');
+	font-weight: 600;
+	font-style: normal;
+}
+
+/*SEKCJA OBOWIĄZKOWA*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Raleway', Arial, sans-serif;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.clearfix:before, .clearfix:after {
+	display: block;
+	content: "";
+	clear: both;
+}
+
+.emerald {
+	color: #24baa0;
+	font-weight: 700;
+}
+
+/*POCZĄTEK SEKCJI HEADER*/
+#top {
+	width: 100%;
+	height: 40px;
+	background-color: #000;
+	padding: 10px 25px;
+}
+
+#top #logo {
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 14px;
+	float: left;
+}
+
+#menu {
+	float: right;
+}
+
+#menu ul {
+	
+	font-size: 0;
+}
+
+#menu ul li {
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 14px;	
+}
+
+#menu ul li a {
+	text-decoration: none;
+	margin-left: 40px;
+	font-weight: 800;
+	color: #fff;
+}
+
+#menu ul li a:hover {
+	color: #999;
+}
+
+#menu ul li a ul.menu-hover {
+	list-style-type: none;
+}
+
+#menu ul li a ul.menu-hover li a {
+	display: block;
+	width: 120px;
+	background-color: #000;
+	text-transform: capitalize;
+}
+
+/*Koniec sekcji HEADER*/
+/*POCZĄTEK SEKCJI MAIN*/
+#main {
+	background-color: #fff;
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(238,238,240,1) 75%, rgba(208,207,215,1) 100%);
+	position: relative;
+
+}
+
+#main .container {
+	width: 100%;
+	height: 500px;
+	background-image: url("../images/black_chair.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 50px 0;
+	position: relative;
+}
+
+#claim {
+	width: 400px;
+	position: absolute;
+	top: 120px;
+	bottom: 0;
+	left: 650px;
+	right: 0;
+	margin: 0 20px 0 0;
+}
+
+#claim h1 {
+	font-size: 40px;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#claim p {
+	font-family: 'Raleway', Arial, sans-serif;
+	text-align: center;
+	font-size: 14px;
+	line-height: 22px;
+	margin-top: 40px;
+}
+
+#claim button {
+	width: 260px;
+	height: 50px;
+	border-radius: 5px;
+	background-color: #24baa0;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 24px;
+	border: none;
+	position: absolute;
+	left: 70px;
+	top: 200px;
+}
+
+
+
+// .menu-wrapper .menu {
+// 	display: none;
+// }
+
+// .menu-wrapper:hover .menu {
+// 	display: block;
+// }
