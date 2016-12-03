@@ -1,22 +1,16 @@
 #"Sit on Chair" basic website project#
-
 **"Sit on chair"** is simply a basic HTML&CSS exercise that consists in scripting a 
-
 .psd design. The basis has been provided by [Coders Lab](http://coderslab.pl).
-
 
 #Licence#
 "Sit on chair" is licensed under The MIT License (MIT).
 
 #Inspiration#
 The design has been provided by [Coders Lab](http://coderslab.pl) during the first 
-
 week of Front-End Development course.
 
 #Feedback & Contribution#
-
 Feel free to contribute to the project or tell me what could be done better. These 
-
 are my first steps so any kind of support is more than welcome!:bowtie:
 
 In order to contribute please do the following:
