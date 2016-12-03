@@ -18,5 +18,5 @@ In order to contribute please do the following:
 1. Fork this repo
 2. Create a new branch (git checkout -b branch-name)
 3. Commit your changes (git commit -am "Comment/Description")
-4. Push to the branch (git push origin mbranch-name)
+4. Push to the branch (git push origin branch-name)
 5. Create new pull request
