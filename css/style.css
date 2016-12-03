@@ -160,43 +160,81 @@ body {
 	font-weight: 800;
 	font-size: 14px;
 	float: left;
+	letter-spacing: 1.5px;
 }
 
-#menu {
+.menu {
 	float: right;
+	position: relative;
 }
 
-#menu ul {
-	
+.menu ul {	
 	font-size: 0;
 }
 
-#menu ul li {
+.menu ul li {
 	display: inline-block;
 	text-transform: uppercase;
-	font-size: 14px;	
+	font-size: 14px;
+	letter-spacing: 1px;
+	margin-left: 40px;	
 }
 
-#menu ul li a {
+a {
 	text-decoration: none;
-	margin-left: 40px;
-	font-weight: 800;
+	font-weight: 700;
 	color: #fff;
 }
 
-#menu ul li a:hover {
+.menu ul li a:hover {
 	color: #999;
 }
 
-#menu ul li a ul.menu-hover {
-	list-style-type: none;
+.dropdown-content {
+	display: block;
+	position: absolute;
+	top: 40px;
+	left: 25px;
+	background-color: #000;
+	width: 120px;
+	z-index: 10;
+	text-align: left;
+	line-height: 30px;
+	text-transform: capitalize;	
 }
 
-#menu ul li a ul.menu-hover li a {
+
+
+.dropdown-content:before {
 	display: block;
-	width: 120px;
+	content: "";
+	width: 15px;
+	height: 15px;
 	background-color: #000;
-	text-transform: capitalize;
+	position: absolute;
+	-webkit-transform: rotateZ(45deg); /* Safari */
+    transform: rotateZ(45deg); /* Standard syntax */     
+    transform: rotate(45deg);
+    top: -5px;
+    left: 50px;
+    z-index: -10;
+}
+
+
+.dropdown-content a {
+	display: block;	
+	font-weight: 400;
+	padding: 0 15px;
+	line-height: 33px;
+}
+
+#top .menu .dropdown-content a:hover {
+	background-color: #444;
+	display: block;	
+	font-weight: 600;
+	width: 100%;
+	color: #fff;
+
 }
 
 /*Koniec sekcji HEADER*/
@@ -241,6 +279,7 @@ body {
 	font-size: 14px;
 	line-height: 22px;
 	margin-top: 40px;
+	letter-spacing: 1px;
 }
 
 #claim button {
@@ -256,6 +295,105 @@ body {
 	left: 70px;
 	top: 200px;
 }
+
+/*Koniec sekcji MAIN*/
+/*POCZĄTEK SEKCJI GALLERY*/
+#gallery .image-show, #gallery .image-info {
+	float: left;
+	margin-right: 30px;
+	margin-top: 30px;
+	border: 1px solid #dcdcdc;
+	padding: 25px;
+}
+
+#gallery .image-show {
+	height: 225px;
+	width: 330px;
+	position: relative;
+}
+
+ #gallery .image-info {
+ 	height: 250px;
+ 	width: 345px;
+ }
+
+#gallery .container {
+	position: relative;
+	height: 350px;
+}
+
+#gallery .image-show:first-child {
+	background-image: url("../images/box1_img.jpg");
+	background-size: cover;
+}
+
+#gallery .image-show:nth-child(2) {
+	background-image: url("../images/box2_img.jpg");
+	background-size: cover;
+}
+
+#gallery h3 {
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 0.3px;
+	position: absolute;
+}
+
+#gallery .image-show h3:after {
+	width: 138px;
+	height: 7px;
+	position: absolute;
+	top: 25px;
+	left: 15px;
+	background-color: #27c7ab;
+	margin: 10px 0;
+	content: "";
+}
+
+#gallery .image-info h3:after {
+	width: 138px;
+	height: 7px;
+	position: absolute;
+	top: 10px;
+	left: 0px;
+	background-color: #27c7ab;
+	margin: 10px 0;
+	content: "";
+}
+
+#gallery .image-show h3 {
+	height: 60px;
+	width: 330px;
+	position: absolute;
+	top: 150px;
+	left: 0;
+	background-color: rgba(255, 255, 255, .3);
+	padding-left: 15px;
+	padding-top: 15px;
+
+}
+
+#gallery .image-info p {
+	font-size: 14px;
+	line-height: 21px;
+	color: #565656;
+	margin-bottom: 15px;
+}
+
+#gallery .image-info p:first-of-type {
+	margin-top: 50px;
+}
+/*Koniec sekcji GALLERY*/
+/*POCZĄTEK SEKCJI PRICING*/
+#pricing {
+	background-color: #f1f1f1;
+}
+
+#pricing .container {
+	height: 725px;
+	
+}
+
 
 
 
