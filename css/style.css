@@ -678,7 +678,7 @@ h4 {
 	margin-bottom: 25px;
 }
 
-#contact .contact-col-right {
+#contact .col-right {
 	background-image: url("../images/red_chair.png");
 	background-repeat: no-repeat;
 	background-position: 45px 0;
@@ -690,14 +690,14 @@ h4 {
 
 }
 
-#contact .contact-col-right .check {
+#contact .col-right .check {
 	position: absolute;
 	left: 20px;
 	top: 240px;
 	width: 300px;
 }
 
-#contact .contact-col-right .check {
+#contact .col-right .check {
 	font-size: 20px;
 	font-weight: 300;
 	color: #aeaeae;
@@ -728,7 +728,7 @@ input[type="checkbox"]:checked + div {
 	top: -2px;
 }
 
-.contact-col-right button {
+.col-right button {
 	width: 340px;
 	height: 65px;
 	border-radius: 5px;
@@ -736,10 +736,45 @@ input[type="checkbox"]:checked + div {
 	color: #fff;
 	text-transform: uppercase;
 	font-size: 34px;
+	font-weight: 600;
 	border: none;
 	position: absolute;
 	left: 20px;
 	top: 320px;
+}
+/*Koniec sekcji CONTACT*/
+/*POCZĄTEK SEKCJI FOOTER*/
+footer .copy {
+	font-size: 16px;
+	color: #9b9b9b;
+	letter-spacing: 0.5px;
+	font-weight: 500;
+	float: left;
+}
+
+footer .col-right {
+	float: left;
+	width: 633px;
+	height: 50px;
+	position: relative;
+}
+
+footer .col-right .social {
+	display: inline-block;
+	width: 200px;
+	position: absolute;
+	top: -20px;
+	left: 292px;
+}
+
+footer .col-right .logo {
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #9b9b9b;
+	letter-spacing: 1px;
+	float: right;
+	margin-top: -8px;
 }
 
 
