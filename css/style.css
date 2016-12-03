@@ -636,7 +636,111 @@ h4 {
 	background-color: #fff;
 	color: #27c7ab;
 }
+/*Koniec sekcji PRICING*/
+/*POCZĄTEK SEKCJI CONTACT*/
+#contact {
+	height: 550px;
+	background-color: #fff;
+}
 
+#contact .container {
+	position: relative;
+}
+
+#contact form {
+	position: absolute;
+	padding-left: 25px;
+	top: 120px;
+	left: 0;
+}
+
+#contact form input, #contact form textarea {
+	display: block;
+	width: 630px;
+	border: 1px solid #a3e2d7;
+}
+
+#contact form input {
+	height: 65px;
+}
+
+#contact form textarea {
+	height: 185px;
+	resize: none;
+}
+
+#contact form [placeholder] {
+	color: #ccc;
+	font-family: 'Raleway', Arial, sans-serif;
+	font-size: 33px;
+	font-weight: 200;
+	padding: 15px;
+	margin-bottom: 25px;
+}
+
+#contact .contact-col-right {
+	background-image: url("../images/red_chair.png");
+	background-repeat: no-repeat;
+	background-position: 45px 0;
+	position: absolute;
+	top: 100px;
+	left: 700px;
+	width: 340px;
+	height: 210px;
+
+}
+
+#contact .contact-col-right .check {
+	position: absolute;
+	left: 20px;
+	top: 240px;
+	width: 300px;
+}
+
+#contact .contact-col-right .check {
+	font-size: 20px;
+	font-weight: 300;
+	color: #aeaeae;
+}
+
+input[type="checkbox"] {
+	display: none;	
+}
+
+input[type="checkbox"]:checked + div {
+	display: block;
+	width: 45px;
+	height: 45px;
+	border: 1px solid #a3e2d7;
+	background-color: #fff;
+	background-image: url("../images/form_ok.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.agree label {
+	display: block;
+	width: 340px;
+	height: 45px;
+	position: absolute;
+	left: 60px;
+	top: -2px;
+}
+
+.contact-col-right button {
+	width: 340px;
+	height: 65px;
+	border-radius: 5px;
+	background-color: #24baa0;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 34px;
+	border: none;
+	position: absolute;
+	left: 20px;
+	top: 320px;
+}
 
 
 
