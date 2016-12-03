@@ -214,14 +214,6 @@ a {
 	z-index: 999;
 }
 
-// .menu-wrapper .menu {
-// 	display: none;
-// }
-
-// .menu-wrapper:hover .menu {
-// 	display: block;
-// }
-
 .dropdown-content:before {
 	display: block;
 	content: "";
