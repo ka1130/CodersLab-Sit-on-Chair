@@ -190,8 +190,8 @@ a {
 	color: #999;
 }
 
-.dropdown-content {
-	display: block;
+.dropbtn .dropdown-content {
+	display: none;
 	position: absolute;
 	top: 40px;
 	left: 25px;
@@ -203,7 +203,18 @@ a {
 	text-transform: capitalize;	
 }
 
+.dropbtn:hover .dropdown-content {
+	display: block;
+	z-index: 999;
+}
 
+// .menu-wrapper .menu {
+// 	display: none;
+// }
+
+// .menu-wrapper:hover .menu {
+// 	display: block;
+// }
 
 .dropdown-content:before {
 	display: block;
@@ -780,10 +791,4 @@ footer .col-right .logo {
 
 
 
-// .menu-wrapper .menu {
-// 	display: none;
-// }
 
-// .menu-wrapper:hover .menu {
-// 	display: block;
-// }
