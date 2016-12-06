@@ -164,55 +164,79 @@ header {
 	font-weight: 700;
 }
 
-.menu {
+nav.menu {
 	float: right;
-	position: relative;
 }
 
-.menu ul {	
-	font-size: 0;
-	padding: 0 0 50px 0;
+.menu ul {
+	width: 400px;
+	float: right;
+	margin: 0;
 }
 
 .menu ul li {
 	display: inline-block;
-	text-transform: uppercase;
-	font-size: 14px;
-	letter-spacing: 1px;
-	margin-left: 40px;	
+	text-align: right;
 }
 
-a {
+.menu ul li a {
 	text-decoration: none;
-	font-weight: 700;
 	color: #fff;
+	font-weight: 800;
+	text-transform: uppercase;
+	margin-left: 40px;
+	font-size: 14px;
+	letter-spacing: 0.5px;
 }
 
-.menu ul li a:hover {
-	color: #24baa0;
+#top .menu ul li.dropbtn ul.dropdown-content li.submenu-item a {
+	margin-left: 10px;
+	font-weight: 500;
+	font-size: 16px;
+	padding: 5px;
+}
+
+#top .menu ul li.dropbtn ul.dropdown-content li.submenu-item a:hover {
+	font-weight: 700;
+}
+
+#top .menu ul li.dropbtn ul.dropdown-content li.submenu-item {
+	padding: 8px 0;
+}
+
+#top .menu ul li.dropbtn ul.dropdown-content li.submenu-item:hover {
+	background-color: #333;
+	width: 120px;
+	text-align: left;
 }
 
 .dropbtn {
-	padding-bottom: 50px;
+	position: relative;
 }
 
 .dropbtn .dropdown-content {
-	display: none;
-	position: absolute;
-	top: 40px;
-	left: 25px;
+	visibility: hidden;
+  	transition: 0.2s 1s; 
+	z-index: 99;
 	background-color: #000;
+	list-style-type: none;
 	width: 120px;
-	z-index: 9999;
+	height: 105px;
+	position: absolute;
+	top: 37px;
+	left: 10px;
 	text-align: left;
-	line-height: 30px;
-	text-transform: capitalize;	
-	padding-top:.2em;
 }
 
+.dropbtn .dropdown-content .submenu-item a {
+	text-transform: capitalize;
+}
+
+
 .dropbtn:hover .dropdown-content {
-	display: block;
-	z-index: 999;
+	visibility: visible;
+  	transition-delay: 0s;
+ 	z-index: 99999;
 }
 
 .dropdown-content:before {
@@ -228,23 +252,6 @@ a {
     top: -5px;
     left: 50px;
     z-index: -10;
-}
-
-
-.dropdown-content a {
-	display: block;	
-	font-weight: 400;
-	padding: 0 15px;
-	line-height: 33px;
-}
-
-#top .menu .dropdown-content a:hover {
-	background-color: #444;
-	display: block;	
-	font-weight: 600;
-	width: 100%;
-	color: #fff;
-
 }
 
 .arrow-left, .arrow-right {
